@@ -9,25 +9,7 @@ function User({user}) {
     )
 }
 
-function UserList() {
-    const users = [
-        {
-            id: 1,
-            username: 'hwimin',
-            email: 'gnlals@gmail.com'
-        },
-        {
-            id: 2,
-            username: 'homer',
-            email: 'homer@gmail.com'
-        },
-        {
-            id: 3,
-            username: 'barth',
-            email: 'barth@gmail.com'
-        },
-    ];
-
+function UserList({users}) {
     return (
         <div>
             {users.map(
